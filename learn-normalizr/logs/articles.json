@@ -1,0 +1,1 @@
+{"entities":{"users":{"1":{"id":1,"title":"Some Article","author":{"id":1,"name":"Dan"}},"2":{"id":2,"title":"Other Article","author":{"id":1,"name":"Dan"}}}},"result":[1,2]}

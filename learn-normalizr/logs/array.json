@@ -1,0 +1,1 @@
+{"entities":{"articles":{"1":{"id":1,"type":"articles","title":"Some Article"},"2":{"id":2,"type":"articles","title":"Other Article"}},"tutorials":{"1":{"id":1,"type":"tutorials","title":"Some Tutorial"}}},"result":[{"id":1,"schema":"articles"},{"id":2,"schema":"articles"},{"id":1,"schema":"tutorials"}]}

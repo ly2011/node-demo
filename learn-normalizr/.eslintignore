@@ -1,0 +1,3 @@
+build/**/*
+src/utils/*.js
+src/utils.js

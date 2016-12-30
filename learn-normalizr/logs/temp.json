@@ -1,0 +1,68 @@
+{
+  "entities": {
+    "users": {
+      "2": {
+        "id": 2,
+        "name": "Pete Hunt"
+      },
+      "3": {
+        "id": 3,
+        "name": "Mike Persson"
+      },
+      "4": {
+        "id": 4,
+        "name": "Andy Warhol"
+      },
+      "100": {
+        "id": 100,
+        "name": "T.S. Eliot"
+      },
+      "120": {
+        "id": 120,
+        "name": "Ada Lovelace"
+      }
+    },
+    "collections": {
+      "1": {
+        "id": 1,
+        "title": "Awesome Writing",
+        "curator": 4
+      },
+      "2": {
+        "id": 2,
+        "title": "Neverhood",
+        "curator": 120
+      },
+      "7": {
+        "id": 7,
+        "title": "Even Awesomer",
+        "curator": 100
+      }
+    },
+    "articles": {
+      "1": {
+        "id": 1,
+        "title": "Some Article",
+        "author": 3,
+        "collections": [
+          1,
+          7
+        ]
+      },
+      "2": {
+        "id": 2,
+        "title": "Other Article",
+        "collections": [
+          2
+        ],
+        "author": 2
+      }
+    }
+  },
+  "result": {
+    "feed": [
+      1,
+      2
+    ]
+  }
+}
